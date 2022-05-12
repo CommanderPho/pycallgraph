@@ -11,7 +11,7 @@ print(items)
 
 changed = False
 
-for script, save_md5 in items.iteritems():
+for script, save_md5 in items.items():
     new_md5 = hashlib.md5(open(script).read()).hexdigest()
     if new_md5 == save_md5:
         continue
