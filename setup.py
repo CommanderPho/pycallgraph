@@ -42,7 +42,6 @@ setup(
     packages=['pycallgraph', 'pycallgraph.output'],
     scripts=['scripts/pycallgraph'],
     data_files=data_files,
-    use_2to3=False,
 
     # TODO: Update download_url
     download_url =
